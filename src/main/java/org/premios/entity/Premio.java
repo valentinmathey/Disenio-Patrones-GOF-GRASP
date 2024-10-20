@@ -1,4 +1,4 @@
-package org.example.entity;
+package org.premios.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,7 +11,7 @@ import java.util.Date;
 @AllArgsConstructor
 public class Premio {
 
-    private String codPremio;
+    private int codPremio;
 
     private String nombrePremio;
 
@@ -19,7 +19,7 @@ public class Premio {
 
     private String descripcionPremio;
 
-    private float valorPremio;
+    private int valorPremio;
 
     private Categoria categoriaPremio;
 }

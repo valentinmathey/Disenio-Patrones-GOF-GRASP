@@ -1,4 +1,4 @@
-package org.example.entity;
+package org.premios.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,6 +14,10 @@ public class Cliente {
     private String domicilioCliente;
 
     private int dniCliente;
+
+    private String usuario;
+
+    private String contraseña;
 
     private Sucursal sucursalCliente;
 

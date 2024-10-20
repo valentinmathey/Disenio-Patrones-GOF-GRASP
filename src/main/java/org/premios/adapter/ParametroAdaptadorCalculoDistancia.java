@@ -1,4 +1,4 @@
-package org.example.entity;
+package org.premios.adapter;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Metodo {
+public class ParametroAdaptadorCalculoDistancia {
 
-    private String nombreMetodo;
+    private String nombre;
 }
